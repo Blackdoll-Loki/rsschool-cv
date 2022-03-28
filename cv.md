@@ -9,7 +9,7 @@ I'm from Ukraine, Zhytomyr. Last year I decided to learn JavaScript, HTML. I sta
 ----
 ### Skills:
 * HTML
-* SCC
+* CSS
 * JavaScript
 
 ----
@@ -39,5 +39,5 @@ I don't have any commercial experience. I've made only rs-school projects. Last 
 ### Languages:
 * English (intermediate  or upper-intermediate)
 * Russian
-* Ukranian
+* Ukrainian
 
