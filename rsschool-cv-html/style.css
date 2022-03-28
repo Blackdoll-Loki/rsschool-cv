@@ -1,0 +1,19 @@
+.container{
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 40px 25px;
+}
+.title{
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+.title > div{
+ justify-self: center;
+}
+.about-me{
+  max-width: 70vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-content: center;
+}
