@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+<body>
+  <head></head>
+  <main>
+    <div class="container">
+        <aside>
+          <img src="./avatar.png" alt="me">
+          <section class="contacts">
+            <h3>Contact information</h3>
+            <ul>
+              <li>Phone: <span>+380950893571</span></li>
+              <li> Email: <span>helpmeloki7@gmail.com</span></li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills:</h3>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ol>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>English (intermediate  or upper-intermediate)</li>
+              <li>Russian</li>
+              <li>Ukrainian</li>
+            </ul>
+          </section>
+        </aside>
+        <div>
+          <h1>Kliamar Daria</h1>
+          <h2>Junior Frontend Developer</h2>
+          <section class="about-me">
+            <h3>About me:</h3>
+            <p>I'm from Ukraine, Zhytomyr. Last year I decided to learn JavaScript, HTML. I started from codecademy and freecodecamp. Then I went to RS-School stage 0, and then to stage 1, stage 2.</p>
+          </section>
+          <section class="code-example">
+            <h3>Code example</h3>
+            <p>Task description: The makeLooper() function (make_looper in Python) takes a string (of non-zero length) as an argument. It returns a function. The function it returns will return successive characters of the string on successive invocations. It will start back at the beginning of the string once it reaches the end.</p>
+            <code>
+              <pre>function makeLooper(str) {
+                let arr = [...str];
+                return function looper(){
+                  if(arr.length > 0){
+                    return arr.shift();
+                  } else {
+                  arr = [...str];
+                  return looper();
+                  }
+                }
+              }</pre>
+            </code>
+          </section>
+          <section>
+            <h3>Experience</h3>
+            <p>I don't have any commercial experience. I've made only rs-school projects. Last of them was teem-project RS-Lang project made with webpack on <a href="https://rslang-burik84.netlify.app/">TypeScript</a></p>
+          </section>
+          <section>
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <div>
+                  <h4>Zhytomyr State Technological University</h4>
+                  <p>faculty of Information Technologies, in the specialty of systems engineering.</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h4>Zhytomyr College of Technology</h4>
+                </div>
+              </li>
+              <li>Accomplished JavaScript Algorithms and Data Structures on <a href="https://www.freecodecamp.org">freecodecamp</a></li>
+              <li>Accomplished free edition of <a href="https://www.codecademy.com">codecademy</a> courses of HTML, CSS</li>
+              <li>Responsive Web Design on freecodecamp in propgress</li>
+              <li>Front End Development Libraries course on freecodecamp in progress</li>
+              <li>Accomplished RS-School Frontend stage2</li>
+            </ul>
+          </section>
+        </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>

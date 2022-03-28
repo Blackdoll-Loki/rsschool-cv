@@ -1,0 +1,22 @@
+body{
+  background-color: #a3c1e4;
+  color: #644c61;
+}
+.container{
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: 0.4fr auto;
+  column-gap: 40px;
+}
+.title > div{
+ justify-self: center;
+}
+.about-me{
+  display: grid;
+  grid-template-rows: auto auto;
+  align-content: center;
+}
+a{
+  text-decoration: none;
+  color: #82529e;
+}
